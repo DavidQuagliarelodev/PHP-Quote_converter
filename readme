@@ -1,0 +1,5 @@
+*Dependeces - (Php, Apache) or XAMP;
+
+*Api_Url : "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial=\''.$diainicial.'\'&@dataFinalCotacao=\''.$diaAtual.'\'&$top=1&$orderby=dataHoraCotacao%20desc&$format=json&$select=cotacaoCompra,dataHoraCotacao"
+
+*Objective - "Consume a real-time quote API from the Central Bank of Brazil."
